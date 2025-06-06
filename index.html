@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Library Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Students</a></li>
+        <li><a href="#">Issue Book</a></li>
+        <li><a href="#">Return Book</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <h2>Dashboard</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Total Books</h3>
+          <p>150</p>
+        </div>
+        <div class="card">
+          <h3>Issued Books</h3>
+          <p>45</p>
+        </div>
+        <div class="card">
+          <h3>Total Students</h3>
+          <p>80</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="issue-form">
+      <h2>Issue Book</h2>
+      <form>
+        <label>Student ID:
+          <input type="text" placeholder="Enter student ID" />
+        </label>
+        <label>Book ID:
+          <input type="text" placeholder="Enter book ID" />
+        </label>
+        <button type="submit">Issue</button>
+      </form>
+    </section>
+
+    <!-- New Recommendation Section -->
+    <section class="recommendation">
+      <h2>AI Book Recommendation</h2>
+      <form>
+        <label>Enter Favorite Genre or Book:
+          <input type="text" placeholder="e.g. Mystery, Sci-Fi, Harry Potter" />
+        </label>
+        <button type="submit">Get Recommendation</button>
+      </form>
+      <p class="note">* AI integration coming soon. This is a UI demo only.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Library System</p>
+  </footer>
+</body>
+</html>
